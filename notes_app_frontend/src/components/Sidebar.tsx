@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import NoteList from './NoteList';
-import { relativeTimeFromEpoch } from '../utils/time';
+import { relativeTimeFromEpoch } from '../utils/time.ts';
 import type { Note } from '../types';
 
 /**
